@@ -13,8 +13,8 @@ def convert_to_american(decimal_odds):
 # Define the function to handle button click
 def run_devigger():
     # Get the input values
-    leg_odds_decimal = leg_odds_text.value
-    final_odd_decimal = final_odd_text.value
+    leg_odds_decimal = leg_odds_input.value
+    final_odd_decimal = final_odd_input.value
 
     # Split the leg odds into individual sets
     leg_odds_sets = leg_odds_decimal.split(",")
@@ -57,9 +57,9 @@ def run_devigger():
     else:
         st.write("Request failed with status code:", response.status_code)
 
-# Create text fields and button
-leg_odds_text = st.text_input("Qouten", "1.9/1.9,1.9/1.9")
-final_odd_text = st.text_input("Boost Q", "2.5")
+# Create text input widgets and button
+leg_odds_input = st.text_input("Qouten", "1.9/1.9,1.9/1.9")
+final_odd_input = st.text_input("Boost Q", "2.5")
 button = st.button("Run Devigger API")
 
 # Check if the button is clicked
