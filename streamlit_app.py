@@ -54,8 +54,8 @@ def run_devigger(leg_odds_decimal, final_odd_decimal):
         st.write("Request failed with status code:", response.status_code)
 
 # Create text input widgets
-leg_odds_decimal = st.text_input("Qouten", "1.9/1.9,1.9/1.9")
-final_odd_decimal = st.text_input("Boost Q", "2.5")
+leg_odds_decimal = st.text_input("odds", "1.9/1.9,1.9/1.9")
+final_odd_decimal = st.text_input("odds boost", "2.5")
 
 # Create a button to run the Devigger API
 if st.button("Run Devigger API"):
