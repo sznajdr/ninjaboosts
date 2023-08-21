@@ -69,13 +69,17 @@ st.write("qouten wie im beispielformat eingeben: erste zahl immer das worauf man
 st.write("boost qoute eingeben")
 
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
+
+
+st.header("beispiel:")
+
+st.header("qouten auf oddsportal.de raus suchen, aufs spiel klicken und PINNACLE qouten benutzen")
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png?raw=true&text=Image+1)")
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)")
 
 
-st.header("beispiel:")
-st.write("1. ungefähr '1.9/1.9/1.9,1.9/1.9' im 'odds' feld.")
-st.write("2. ca '2.5' im 'odds boost' feld.")
+st.write("1. ungefähr ' 1.9/1.9/1.9,1.9/1.9 ' im odds feld.")
+st.write("2. ca ' 2.5 ' oder so - boost qoute! - im odds boost feld.")
 st.write("3. clickbutton")
 st.write("4. EV% größer als null = value! vamos allez lesgo ")
 
