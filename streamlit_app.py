@@ -69,9 +69,8 @@ st.write("qouten wie im beispielformat eingeben: erste zahl immer das worauf man
 st.write("boost qoute eingeben")
 
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
-st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/ant1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
-st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
-
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png?raw=true&text=Image+1)")
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)")
 
 
 st.header("beispiel:")
