@@ -76,7 +76,7 @@ st.header("beispiel:")
 st.write("1. ungefähr '1.9/1.9/1.9,1.9/1.9' im 'odds' feld.")
 st.write("2. ca '2.5' im 'odds boost' feld.")
 st.write("3. clickbutton")
-st.write("4. EV% größer als null = value" vamos allez lesgo ")
+st.write("4. EV% größer als null = value! vamos allez lesgo ")
 
 st.image("https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png&text=Image+1")
 
