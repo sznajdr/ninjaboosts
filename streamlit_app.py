@@ -49,7 +49,7 @@ def run_devigger(leg_odds_decimal, final_odd_decimal, check_box):
         # Extract the EV_Percentage
         ev_percentage = data["Final"]["EV_Percentage"]
         if check_box:
-            ev_percentage *= -0.95
+            ev_percentage *= 0.95
 
         # Print the expected value percentage
         st.write("Expected Value: {}%".format(ev_percentage * 100))
