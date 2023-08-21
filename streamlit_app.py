@@ -73,7 +73,9 @@ st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.pn
 
 st.header("beispiel:")
 
-st.header("qouten auf oddsportal.de raus suchen, aufs spiel klicken und PINNACLE qouten benutzen")
+st.write("qouten auf oddsportal.de raus suchen, aufs spiel klicken und PINNACLE qouten benutzen")
+
+
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png?raw=true&text=Image+1)")
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)")
 
