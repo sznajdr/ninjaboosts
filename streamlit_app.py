@@ -68,6 +68,12 @@ st.write("boost einzelwetten qouten suchen")
 st.write("qouten wie im beispielformat eingeben: erste zahl immer das worauf man wettet, danach mit / getrennt die wetten dagegen, falls ein boost aus mehreren kombinierten wetten besteht das mit allen wetten wiederholen - getrennt durch komma!")
 st.write("boost qoute eingeben")
 
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/ant1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png?raw=true&text=Image+1)")
+
+
+
 st.header("beispiel:")
 st.write("1. ungefähr '1.9/1.9/1.9,1.9/1.9' im 'odds' feld.")
 st.write("2. ca '2.5' im 'odds boost' feld.")
@@ -75,4 +81,3 @@ st.write("3. clickbutton")
 st.write("4. EV% größer als null = value! vamos allez lesgo ")
 
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)")
-
