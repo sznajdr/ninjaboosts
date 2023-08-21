@@ -63,7 +63,7 @@ if st.button("Run Devigger API"):
     run_devigger(leg_odds_decimal, final_odd_decimal)
 
 # Add pictures below the API stuff
-st.header("anleitung")
+st.header("anleitung:")
 st.write("boost einzelwetten qouten suchen")
 st.write("qouten wie im beispielformat eingeben: erste zahl immer das worauf man wettet, danach mit / getrennt die wetten dagegen, falls ein boost aus mehreren kombinierten wetten besteht das mit allen wetten wiederholen - getrennt durch komma!")
 st.write("boost qoute eingeben")
@@ -72,7 +72,7 @@ st.image("https://github.com/sznajdr/ninjaboosts/blob/main/bway1.png&text=Image+
 st.image("https://github.com/sznajdr/ninjaboosts/blob/main/antw1.png&text=Image+1")
 st.image("https://github.com/sznajdr/ninjaboosts/blob/main/psv2.png&text=Image+1")
 
-st.header("beispiel")
+st.header("beispiel:")
 st.write("1. ungefähr '1.9/1.9/1.9,1.9/1.9' im 'odds' feld.")
 st.write("2. ca '2.5' im 'odds boost' feld.")
 st.write("3. clickbutton")
