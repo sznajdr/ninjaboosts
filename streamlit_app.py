@@ -74,5 +74,5 @@ st.write("2. ca '2.5' im 'odds boost' feld.")
 st.write("3. clickbutton")
 st.write("4. EV% größer als null = value! vamos allez lesgo ")
 
-st.markdown("[![Image](https://raw.githubusercontent.com/sznajdr/ninjaboosts/4324fedc1e9c8fec4d03cbac5fac45904c7f284e/boost1.png&text=Image+1)](https://raw.githubusercontent.com/sznajdr/ninjaboosts/4324fedc1e9c8fec4d03cbac5fac45904c7f284e/boost1.png&text=Image+1)")
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)")
 
