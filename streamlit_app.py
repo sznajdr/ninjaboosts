@@ -1,3 +1,4 @@
+
 import requests
 import streamlit as st
 
@@ -60,3 +61,27 @@ final_odd_decimal = st.text_input("odds boost", "2.5")
 # Create a button to run the Devigger API
 if st.button("Run Devigger API"):
     run_devigger(leg_odds_decimal, final_odd_decimal)
+
+# Add pictures below the API stuff
+st.header("Instructions")
+st.write("Here are the instructions for using this tool:")
+st.write("1. Enter the decimal odds for each leg in the 'odds' field. Separate each set of odds with a comma.")
+st.write("2. Enter the decimal odds boost in the 'odds boost' field.")
+st.write("3. Click the 'Run Devigger API' button to calculate the expected value.")
+st.write("4. The expected value percentage will be displayed below the button.")
+st.write("5. If the request fails, an error message will be displayed instead.")
+
+st.header("Example")
+st.write("Here's an example of how to use this tool:")
+st.write("1. Enter '1.9/1.9,1.9/1.9' in the 'odds' field.")
+st.write("2. Enter '2.5' in the 'odds boost' field.")
+st.write("3. Click the 'Run Devigger API' button.")
+st.write("4. The expected value percentage should be displayed as 'Expected Value: 2.5%' below the button.")
+
+st.header("Images")
+st.write("Here are some images to help you use this tool:")
+st.image("https://dummyimage.com/300x200/000/fff.png&text=Image+1")
+st.image("https://dummyimage.com/300x200/000/fff.png&text=Image+2")
+st.image("https://dummyimage.com/300x200/000/fff.png&text=Image+3")
+
+
