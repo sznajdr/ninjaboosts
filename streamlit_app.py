@@ -68,7 +68,7 @@ st.write("boost einzelwetten qouten suchen")
 st.write("qouten wie im beispielformat eingeben: erste zahl immer das worauf man wettet, danach mit / getrennt die wetten dagegen, falls ein boost aus mehreren kombinierten wetten besteht das mit allen wetten wiederholen - getrennt durch komma!")
 st.write("boost qoute eingeben")
 
-st.image("https://github.com/sznajdr/ninjaboosts/blob/f153377f8098139843529e098978ea1713ae4d12/bway1.png&text=Image+1")
+st.image("https://github.com/sznajdr/ninjaboosts/blob/f153377f8098139843529e098978ea1713ae4d12/bway1.png")
 st.image("https://github.com/sznajdr/ninjaboosts/blob/f153377f8098139843529e098978ea1713ae4d12/antw1.png&text=Image+1")
 st.image("https://github.com/sznajdr/ninjaboosts/blob/f153377f8098139843529e098978ea1713ae4d12/psv2.png&text=Image+1")
 
