@@ -12,7 +12,7 @@ def convert_to_american(decimal_odds):
         return str(american_odds)
 
 # Define the function to handle button click
-def run_devigger(leg_odds_decimal, final_odd_decimal):
+def run_devigger(leg_odds_decimal, final_odd_decimal, check_box):
     # Split the leg odds into individual sets
     leg_odds_sets = leg_odds_decimal.split(",")
 
@@ -48,6 +48,8 @@ def run_devigger(leg_odds_decimal, final_odd_decimal):
 
         # Extract the EV_Percentage
         ev_percentage = data["Final"]["EV_Percentage"]
+        if check_box:
+            ev_percentage *= -0.95
 
         # Print the expected value percentage
         st.write("Expected Value: {}%".format(ev_percentage * 100))
@@ -57,10 +59,11 @@ def run_devigger(leg_odds_decimal, final_odd_decimal):
 # Create text input widgets
 leg_odds_decimal = st.text_input("odds", "1.9/1.9,1.9/1.9")
 final_odd_decimal = st.text_input("odds boost", "2.5")
+check_box = st.checkbox("steuer")
 
 # Create a button to run the Devigger API
 if st.button("Run Devigger API"):
-    run_devigger(leg_odds_decimal, final_odd_decimal)
+    run_devigger(leg_odds_decimal, final_odd_decimal, check_box)
 
 # Add pictures below the API stuff
 st.header("anleitung:")
@@ -85,4 +88,6 @@ st.write("2. ca ' 2.5 ' oder so - boost qoute! - im odds boost feld.")
 st.write("3. clickbutton")
 st.write("4. EV% größer als null = value! vamos allez lesgo ")
 
-st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)")
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)") 
+
+
