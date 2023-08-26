@@ -93,6 +93,9 @@ st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.p
 
 # Add list of bookmakers
 st.header("buchmacher:")
+st.write("bet365.de (Steuer)")
+st.write("betano.de -> scrollen bis 'Verbesserte Qouten', ab und zu an großkampftagen auch 'Super verbesserte Qouten' die müssten fast immer gut sein (Steuer)")
+st.write("https://sports.betway.de/en/sports/cat/betway-boosts -> oft zweidrei Qoute rest mal so mal so (Steuer)")
 st.write("bet365.de" (Steuer)")
 st.write("betano.de" -> scrollen bis 'Verbesserte Qouten', ab und zu an großkampftagen auch 'Super verbesserte Qouten' die müssten fast immer gut sein (Steuer))
 st.write("https://sports.betway.de/en/sports/cat/betway-boosts" -> oft zweidrei Qoute rest mal so mal so (Steuer))
