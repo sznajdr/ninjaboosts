@@ -26,7 +26,7 @@ def run_devigger(leg_odds_decimal, final_odd_decimal, check_box):
     leg_odds = ",".join(converted_leg_odds)
     final_odd = float(final_odd_decimal)
     if check_box:
-        final_odd *= 0.95
+        final_odd *= 0.947
     final_odd = convert_to_american(final_odd)
 
     # Define the API URL
