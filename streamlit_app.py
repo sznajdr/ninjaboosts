@@ -100,5 +100,9 @@ st.write("https://www.winamax.de/sportwetten/sports/10000")
 st.write("https://neobet.de -> in den Spielen oben and und zu vorgeschlagene boosts (Steuer))") 
 
 
+
+st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/whitelist.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/whitelist.png?raw=true&text=Image+1)")
+
+
  
 
