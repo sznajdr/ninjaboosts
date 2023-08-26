@@ -1,4 +1,3 @@
-
 import requests
 import streamlit as st
 
@@ -25,7 +24,10 @@ def run_devigger(leg_odds_decimal, final_odd_decimal, check_box):
 
     # Join the converted odds sets
     leg_odds = ",".join(converted_leg_odds)
-    final_odd = convert_to_american(float(final_odd_decimal))
+    final_odd = float(final_odd_decimal)
+    if check_box:
+        final_odd *= 0.95
+    final_odd = convert_to_american(final_odd)
 
     # Define the API URL
     url = "https://api.crazyninjaodds.com/api/devigger/v1/sportsbook_devigger.aspx?api=open"
@@ -48,8 +50,6 @@ def run_devigger(leg_odds_decimal, final_odd_decimal, check_box):
 
         # Extract the EV_Percentage
         ev_percentage = data["Final"]["EV_Percentage"]
-        if check_box:
-            ev_percentage *= 0.95
 
         # Print the expected value percentage
         st.write("Expected Value: {}%".format(ev_percentage * 100))
@@ -89,5 +89,4 @@ st.write("3. clickbutton")
 st.write("4. EV% größer als null = value! vamos allez lesgo ")
 
 st.markdown("[![Image](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)](https://github.com/sznajdr/ninjaboosts/blob/main/boost1.png?raw=true&text=Image+1)") 
-
 
